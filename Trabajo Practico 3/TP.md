@@ -127,6 +127,7 @@ print(identificarTATA(p))
  ```
 
 ## Reto 4:
-###
+### Diseñá un juego de mesa o un videojuego (hecho con la herramienta que más te guste) temático sobre expresión génica, con sus reglas y resúmen.
 
-    Utilizamos Pilas Engine para realizar una demo. El arhivo se encuantra [aqui](/proyecto.pilas)
+Utilizamos Pilas Engine para realizar una demo. El arhivo se encuantre [aca](proyecto.pilas)
+   
