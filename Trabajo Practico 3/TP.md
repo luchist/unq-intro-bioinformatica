@@ -129,5 +129,4 @@ print(identificarTATA(p))
 ## Reto 4:
 ###
 
-    Utilizamos Pilas Engine para realizar una demo. El arhivo se encuantra [aqui](proyecto.pilas)
-.
+    Utilizamos Pilas Engine para realizar una demo. El arhivo se encuantra [aqui](/proyecto.pilas)
