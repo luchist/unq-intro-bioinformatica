@@ -56,7 +56,9 @@ humano y gallo)
 ### Recurso: Clustal Omega
 
 #### ¿Qué indican los colores? (Show Colors)
->R:los colores nos indican el tipo de aminoacidos
+>R:los colores nos indican los diversos tipos de aminoacidos
+
+![Secuencia](alineamiento-secuencias.png)
 
 #### ¿Qué indican el guión (-), los dos puntos (:) y el asterisco (*)?
 >R:el guion indica aminoacidos faltantes, los dos puntos los aminoacidos distintos  y el asterisco aminoacidos que son iguales para todas las cadenas
