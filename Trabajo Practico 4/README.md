@@ -73,4 +73,7 @@ organismo, por lo que no sufre demasiadas modificaciones a lo largo del tiempo.
 
 #### Observemos el árbol filogenético. ¿Concuerda con lo esperado? ¿De qué organismos son los citocromos c más parecidos? ¿Cómo se explica?
 ![Arbol Filogenetico](arbol-filogenetico.png)
->R: pudimos ver que dentro del arbol filogenetico se agrupa en varios grupos: por un lado tenemos el grupo
+>R: pudimos ver que dentro del arbol filogenetico se agrupa en varios grupos: por un lado tenemos un grupo donde tenemos un grupo con los primates,
+(Hombre comun, Chimpance comun, Gorila Occidental), y por otro lado otro grupo con los mamiferos (Caballo y perro) y por ultimo un grupo con el resto
+de organismos. De lo anterior se desprende que el citocromo c es mas similar en organismos del mismo grupo. Se explica tambien teniendo en cuenta lo
+anterior, que se parezca entre organismos que tienen un ancestro en comun cercano.
