@@ -8,6 +8,7 @@
  - Luis Coronel
  - Juan Hualumpa
 
+## PARECIDO NO ES LO MISMO
 
 ### 👇 RETO I
 ```
@@ -42,7 +43,8 @@ conclusiones que se desprendan de estas observaciones!
 Probá en tabla interactiva distintos alineamientos para las palabras "ANA" y "ANANA". Verás que en el margen superior
 derecho aparece un valor de identidad calculado para cada alineamiento que intentes y un botón para cambiar la penalidad que
 se le otorga a dicho para el cálculo de identidad.
-Probá varias combinaciones, tomá nota de los valores de identidad observados y de las conclusiones que se desprendan de estas observaciones.
+Probá varias combinaciones, tomá nota de los valores de identidad observados y de las conclusiones que se desprendan de
+estas observaciones.
 ```
 #### ☑ PREGUNTAS DISPARADORAS
 ```
@@ -62,4 +64,70 @@ Probá varias combinaciones, tomá nota de las observaciones y de las conclusion
 ```
 ¿Dá lo mismo si el gap que introducís cae en la primera, segunda o tercer posición del codón?
 ¿Cómo ponderarías las observaciones de este ejercicio para evaluar el parecido entre dos secuencias?
+```
+
+## TIPOS DE ALINEAMIENTOS
+
+### 👇 RETO V
+```
+Estuvimos viendo que el alineamiento de secuencias no es trivial y requiere contemplar los múltiples caminos posibles,
+teniendo en cuenta al mismo tiempo la información biológica que restringe ese universo de posibilidades.
+¡Es momento de llevar entonces estos conceptos a lo concreto!
+Te proponemos pensar los pasos a seguir en un alineamiento de dos secuencias cortas, teniendo en cuenta una matriz genérica
+de scoring (puntuación) que contemple las complejidades que estuvimos viendo, es decir que penalice de distinto modo una
+inserción o deleción, una discordancia (mismatch) o una coincidencia (match).
+Escribilos o esquematizalos en un diagrama de flujo.
+```
+#### 👉 PARA PENSAR
+```
+¿En qué consiste la programación dinámica?
+¿Por qué crees que es útil en este caso?
+```
+
+### 👇 RETO VI
+```
+Utilizando la herramienta interactiva desarrollada por el Grupo de Bioinformática de Freiburg probá distintos
+Gap penalties para el ejemplo propuesto y observá lo que ocurre.
+Interpretando la recursión, explicá con tus palabras de dónde salen los valores de la matriz que se construye.
+¡Esquematiza tus conclusiones!
+```
+
+## BÚSQUEDA DE SIMILITUD SECUENCIAL
+
+### 👇 RETO VII
+```
+Calculá el E-value y porcentaje de identidad utilizando el programa BLAST de la siguiente secuencia input
+usando 20000 hits, un e-value de 100 y tomando aquellos hits con un mínimo de 70% cobertura.
+Observe y discuta el comportamiento de : E-value vs. % id, Score vs % id, Score vs E-value
+```
+
+```
+VVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTV
+TTTTKGENFTETDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFLIVG
+```
+
+### 👇 RETO VIII
+```
+Realizá nuevas búsquedas usando la mitad de la secuencia problema y para un cuarto de la secuencia original.
+Compará los gráficos obtenidos. ¿Qué conclusiones puede sacas?
+```
+
+### 👇 RETO IX
+```
+Utilizando BLAST utilice búsquedas de similitud secuencial para identificar a la siguiente proteína:
+```
+
+```
+MIDKSAFVHPTAIVEEGASIGANAHIGPFCIVGPHVEIGEGTVLKSHVVVNGHTKIGRDNEIYQFASIGEVNQ
+DLKYAGEPTRVEIGDRNRIRESVTIHRGTVQGGGLTKVGSDNLLMINAHIAHDCTVGNRCILANNATLAGH
+VSVDDFAIIGGMTAVHQFCIIGAHVMVGGCSGVAQDVPPYVIAQGNHATPFGVNIEGLKRRGFSREAITAIR
+NAYKLIYRSGKTLDEVKPEIAELAETYPEVKAFTDFFARSTRGLIR
+```
+
+### 👇RETO X
+```
+Realizá una nueva corrida del BLASTp, utilizando la misma secuencia , pero ahora contra la base de datos PDB.
+¿Se obtienen los mismo resultados?
+¿Qué tipo de resultados(hits) se recuperan?
+¿Cuándo nos podría ser útil este modo de corrida?
 ```
