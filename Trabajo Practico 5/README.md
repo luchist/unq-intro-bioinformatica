@@ -50,7 +50,7 @@ conclusiones que se desprendan de estas observaciones!
 ![Acomodando-Secuencia3](alineamiento-palabras3.png)
 ![Acomodando-Secuencia4](alineamiento-palabras4.png)
 
-Podemos ver que entre mas coincidencia tenga entre los dos alienamientos se incrementa el valor de identidad
+Podemos ver que entre mas coincidencia tenga entre los dos alienamientos se incrementa el valor de identidad.
 Deberiamos tener en cuenta la posicion de cada caracter teniendo en cuenta tambien los gaps
 
 ### 👇 RETO III
