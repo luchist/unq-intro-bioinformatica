@@ -20,7 +20,16 @@ Alineá en la tabla interactiva las palabras "BANANA" y "MANZANA".
 ```
 ¿Existe una única forma de alinearlas?
 ¿Es alguno de los posibles alineamientos mejor que otro? Si así fuera ¿Por qué?
+¿Qué representan esos guiones?
 ```
+
+Podemos alinear las palabras de muchas forams diferentes, por ejemplo:
+
+![Acomodando-Secuencia](alineamiento-palabras.png)
+
+tendria una mayor similitud que otras combinaciones.
+Los guiones en este caso van a representar el 'gap' que podiamos ver por ejemplo al usar la herramienta
+Clustal Omega
 
 
 ### 👇 RETO II
@@ -37,6 +46,12 @@ conclusiones que se desprendan de estas observaciones!
 ¿Se te ocurre, distintas formas de calcularlo?¿Serán todas ellas igualmente válidas en Biología?
 ```
 
+![Acomodando-Secuencia2](alineamiento-palabras2.png)
+![Acomodando-Secuencia3](alineamiento-palabras3.png)
+![Acomodando-Secuencia4](alineamiento-palabras4.png)
+
+Podemos ver que entre mas coincidencia tenga entre los dos alienamientos se incrementa el valor de identidad
+Deberiamos tener en cuenta la posicion de cada caracter teniendo en cuenta tambien los gaps
 
 ### 👇 RETO III
 ```
