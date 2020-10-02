@@ -62,12 +62,15 @@ humano y gallo)
 >R:el guion indica aminoacidos faltantes, los dos puntos los aminoacidos distintos  y el asterisco aminoacidos que son iguales para todas las cadenas
 
 #### A simple vista, ¿se conserva la secuencia del citocromo c en los organismos?
+>R:por lo que pudimos ver el citocromo tiende a conservarse en los organismos. Especulamos que puede debeerse a que la secuencia es muy util para el
+organismo, por lo que no sufre demasiadas modificaciones a lo largo del tiempo.
 
 #### ¿Creeríamos que todos los organismos se asemejan por igual al resto, o se pueden identificar grupos de mayor similitud? Si es así, ¿tienen sentido?
 #### ¿Qué evidencias nos aportaría este análisis, a la luz de la evolución?
-
 #### A juzgar por los organismos participantes, ¿cuáles creería que deberían estar más agrupados en el árbol filogenético?
 
 > https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=clustalo-I20200926-001047-0703-92061514-p2m&analysis=phylotree
 
 #### Observemos el árbol filogenético. ¿Concuerda con lo esperado? ¿De qué organismos son los citocromos c más parecidos? ¿Cómo se explica?
+![Arbol Filogenetico](arbol-filogenetico.png)
+>R: pudimos ver que dentro del arbol filogenetico se agrupa en varios grupos: por un lado tenemos el grupo
