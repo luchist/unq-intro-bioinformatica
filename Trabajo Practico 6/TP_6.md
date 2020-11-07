@@ -1,5 +1,12 @@
 # TP 6
 
+## Integrantes
+
+ - Esteban Cicovich
+ - Nicolas Alvarez
+ - Luis Coronel
+ - Juan Hualumpa
+
 ## Reto I
 ### Detalla las tácticas y/o metodologías que deberían utilizarse para darles una respuesta a lxs xadres del niño. 
 - Dadas las secuencias de Mosca, humano y Moscahumano ¿Qué criterios se les
