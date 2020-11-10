@@ -68,6 +68,10 @@ estas observaciones.
 ¿Se te ocurre alguna otra forma de penalización que no haya sido tenido en cuenta en este ejemplo?
 ```
 
+![Acomodando-Secuencia_reto3](reto3-alineamientos.png)
+
+El valor de penalidad se relaciona directamente con el de identidad ya que hace mas sensible el calculo de este ultimo. Esto podria ser util a la hora de buscar una identidad mas fuerte entre las secuencias alineadas. Una forma de penalizar podria ser considerando que los alineamientos se den con muchos gaps que formen letras solitaras.
+
 
 ### 👇 RETO IV
 ```
@@ -81,16 +85,15 @@ Probá varias combinaciones, tomá nota de las observaciones y de las conclusion
 ¿Cómo ponderarías las observaciones de este ejercicio para evaluar el parecido entre dos secuencias?
 ```
 
+No, porque a pesar de no formar un aminoacido, el valor de identidad puede cambiar segun la coincidencia de los nucleotidos. Podrian considerarse los aminoacidos resultantes de cada secuencia en el calculo de identidad.
+
+
 ## TIPOS DE ALINEAMIENTOS
 
 ### 👇 RETO V
 ```
-Estuvimos viendo que el alineamiento de secuencias no es trivial y requiere contemplar los múltiples caminos posibles,
-teniendo en cuenta al mismo tiempo la información biológica que restringe ese universo de posibilidades.
-¡Es momento de llevar entonces estos conceptos a lo concreto!
-Te proponemos pensar los pasos a seguir en un alineamiento de dos secuencias cortas, teniendo en cuenta una matriz genérica
-de scoring (puntuación) que contemple las complejidades que estuvimos viendo, es decir que penalice de distinto modo una
-inserción o deleción, una discordancia (mismatch) o una coincidencia (match).
+Estuvimos viendo que el alineamiento de secuencias no es trivial y requiere contemplar los múltiples caminos posibles, teniendo en cuenta al mismo tiempo la información biológica que restringe ese universo de posibilidades.
+¡Es momento de llevar entonces estos conceptos a lo concreto! Te proponemos pensar los pasos a seguir en un alineamiento de dos secuencias cortas, teniendo en cuenta una matriz genérica de scoring (puntuación) que contemple las complejidades que estuvimos viendo, es decir que penalice de distinto modo una inserción o deleción, una discordancia (mismatch) o una coincidencia (match).
 Escribilos o esquematizalos en un diagrama de flujo.
 ```
 #### 👉 PARA PENSAR
